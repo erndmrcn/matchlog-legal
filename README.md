@@ -4,7 +4,7 @@ This repository hosts the public legal pages for MatchLog using GitHub Pages.
 
 ## Suggested GitHub Pages URLs
 
-Once GitHub Pages is enabled for the `main` branch root, the pages will be available at:
+Once GitHub Pages is enabled, the pages will be available at:
 
 - `https://erndmrcn.github.io/matchlog-legal/`
 - `https://erndmrcn.github.io/matchlog-legal/privacy/`
@@ -21,11 +21,15 @@ These URLs are suitable for App Store privacy policy and terms of use links.
 
 ## GitHub Pages Setup
 
+This repository includes a GitHub Actions workflow for Pages deployment.
+
 1. Push this repository to GitHub.
 2. Open repository `Settings`.
 3. Go to `Pages`.
-4. Set the source to `Deploy from a branch`.
-5. Select branch `main` and folder `/ (root)`.
-6. Save.
+4. Under `Build and deployment`, set `Source` to `GitHub Actions`.
+5. Wait for the `Deploy static content to Pages` workflow to complete after pushing to `main`.
 
-GitHub will then publish the site automatically.
+Important:
+
+- Do not use the `raw.githubusercontent.com` link for these files. Raw links show source code as text.
+- Use the GitHub Pages domain instead, such as `https://erndmrcn.github.io/matchlog-legal/privacy/`.
