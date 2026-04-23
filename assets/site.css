@@ -118,6 +118,10 @@ strong {
   margin-top: 28px;
 }
 
+.support-grid {
+  margin-top: 24px;
+}
+
 .link-card {
   display: block;
   padding: 22px;
@@ -160,6 +164,28 @@ strong {
   margin-top: 28px;
   color: var(--muted);
   font-size: 14px;
+}
+
+.faq-list {
+  display: grid;
+  gap: 16px;
+}
+
+.info-card {
+  padding: 22px;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.info-card h2,
+.info-card h3 {
+  margin-top: 0;
+}
+
+.info-card p:last-child,
+.info-card ul:last-child {
+  margin-bottom: 0;
 }
 
 @media (max-width: 640px) {
